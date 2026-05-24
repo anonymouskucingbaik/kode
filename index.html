@@ -182,11 +182,11 @@
 
             try {
                 // // OPSI 1: Jika API support CORS (uncomment jika bisa)
-                // const response = await fetch('https://mydeena.com/70k3n.php');
+                 const response = await fetch('https://mydeena.com/70k3n.php');
                 
                 // OPSI 2: Gunakan backend proxy (RECOMMENDED)
                 // Ganti dengan URL backend Anda yang proxy ke mydeena.com
-                const response = await fetch('./token.json');
+                //const response = await fetch('./token.json');
                 
                 if (!response.ok) throw new Error('Gagal fetch');
                 
